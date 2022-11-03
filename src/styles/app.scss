@@ -1,0 +1,17 @@
+@use "./global/index.scss";
+
+main {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.MuiPaper-root {
+  left: 5%;
+  right: 5%;
+}
+@media (min-width: 768px) {
+  .MuiPaper-root {
+    left: 20%;
+    right: 20%;
+  }
+}
