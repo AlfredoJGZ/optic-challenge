@@ -9,7 +9,7 @@ import Card from "./Card";
 import { ctx } from "./Provider";
 
 const apiKey = process.env.REACT_APP_GOOGLE_MAPS_KEY as string;
-const libraries = ["places"];
+
 const Map = () => {
   const { route } = useContext(ctx);
   const { isLoaded } = useJsApiLoader({
